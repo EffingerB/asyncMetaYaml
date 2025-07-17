@@ -1,0 +1,27 @@
+# This file has to be in the Players folder to take effect, keeping the "meta.yaml" name
+# A meta file rolls its own set of options first
+# The result will then overwrite each player's option in that particular field
+# For example, if a meta.yaml fast_ganon result is rolled, every player will have that fast_ganon goal
+# There is the special case of null, which ignores that part of the meta.yaml,
+# allowing for a chance for that meta to not take effect
+meta_description: Meta-Mystery file with the intention of having similar-length completion times for a hopefully better experience
+null:
+  progression_balancing: # Progression balancing tries to make sure that the player has *something* towards any players goal in each "sphere"
+    normal: 0 # Force every player into default progression balancing
+    disabled: 1 # Force every player out of progression balancing, then prepare for a lot of logical BK
+    null: 0 # Let players decide via their own progression_balancing setting in their yaml, defaulting to 50
+Jigsaw:
+  non_local_items:
+    ['Puzzle Pieces']
+Muse Dash:
+  local_items: 
+    ['Music Sheet']
+Pokemon Mystery Dungeon Explorers of Sky:
+  local_items:
+    ['Relic Fragment Shard']
+Sonic Adventure DX:
+  local_items:
+    ['Chaos Emeralds']
+Sonic Adventure 2 Battle:
+  local_items:
+    ['Chaos Emeralds']
