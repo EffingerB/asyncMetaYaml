@@ -10,9 +10,20 @@ null:
     normal: 0 # Force every player into default progression balancing
     disabled: 1 # Force every player out of progression balancing, then prepare for a lot of logical BK
     null: 0 # Let players decide via their own progression_balancing setting in their yaml, defaulting to 50
+Dark Souls III:
+  # Let's never do this again
+  lock_equip: false
+  local_items:
+    ['Cinders']
+Hollow Knight:
+  local_items:
+    ['Dreamers']
 Jigsaw:
   non_local_items:
     ['Puzzle Pieces']
+Messenger:
+  local_items:
+    ['Keys']
 Muse Dash:
   local_items: 
     ['Music Sheet']
@@ -25,3 +36,10 @@ Sonic Adventure DX:
 Sonic Adventure 2 Battle:
   local_items:
     ['Chaos Emeralds']
+Ocarina of Time:
+  hint_dist: async
+OpenRCT2:
+  unique_rides_placement: local
+  required_unique_rides: random-low-5-10
+The Witness:
+  shuffle_lasers: local
