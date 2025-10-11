@@ -19,6 +19,7 @@ Hollow Knight:
   local_items:
     ['Dreamers']
 Jigsaw:
+  add_fillers: false
   non_local_items:
     ['Puzzle Pieces']
 The Messenger:
