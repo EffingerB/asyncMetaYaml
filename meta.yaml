@@ -41,6 +41,6 @@ Ocarina of Time:
   hint_dist: async
 OpenRCT2:
   unique_rides_placement: local
-  required_unique_rides: random-low-5-10
+  required_unique_rides: random-range-low-5-10
 The Witness:
   shuffle_lasers: local
